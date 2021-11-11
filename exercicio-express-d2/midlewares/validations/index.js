@@ -21,7 +21,7 @@ function checkPassword(req, res, next) {
   const { password } = req.body;
   const checkPassword = (password && (password.length >= 4 && password.length <= 8));
   if(!checkPassword) {
-    return res.status(400).json({ message: 'password invalido' });
+    return res.status(400).json({ message: 'password invalido' }); 
   };
   next();
 };
