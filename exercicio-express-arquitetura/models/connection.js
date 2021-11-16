@@ -1,9 +1,10 @@
+require('dotenv').config();
 const mysql = require('mysql2/promise');
-
+console.log(process.env.USERNAME);
 const CREDENTIALS = {
   host: 'localhost',
-  user: 'RYAN_TL',
-  password: 'Senha!321',
+  user: process.env.USER_DB,
+  password: process.env.PASSWORD,
   database: 'cep_lookup',
 };
 
