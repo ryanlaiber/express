@@ -6,3 +6,5 @@
 /exercicio-express-arquitetura/.env
 /exercicio-express-testes-de-camadas/node_modules
 /exercicio-express-testes-de-camadas/.env
+/exercicio-express-jwt/node_modules
+/exercicio-express-jwt/.env
